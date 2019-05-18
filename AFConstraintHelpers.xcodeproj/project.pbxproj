@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A07E44F722908B7A00DF6159 /* AFConstraintHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = A07E44F522908B7A00DF6159 /* AFConstraintHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07E44FE22908C2E00DF6159 /* ConstraintHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E44FD22908C2E00DF6159 /* ConstraintHelpers.swift */; };
+		A07E450022908CBA00DF6159 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E44FF22908CBA00DF6159 /* ArrayExtension.swift */; };
+		A07E450222908CD100DF6159 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450122908CD100DF6159 /* ViewExtension.swift */; };
+		A07E450422908CF300DF6159 /* LayoutEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450322908CF300DF6159 /* LayoutEdge.swift */; };
+		A07E450622908D0C00DF6159 /* LayoutCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450522908D0C00DF6159 /* LayoutCorner.swift */; };
+		A07E450822908D2A00DF6159 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450722908D2A00DF6159 /* StringExtension.swift */; };
+		A07E450A22908D5D00DF6159 /* EdgeInsetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450922908D5D00DF6159 /* EdgeInsetsExtension.swift */; };
+		A07E450C22908DAA00DF6159 /* LayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E450B22908DAA00DF6159 /* LayoutConstraintExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A07E44F222908B7A00DF6159 /* AFConstraintHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFConstraintHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07E44F522908B7A00DF6159 /* AFConstraintHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFConstraintHelpers.h; sourceTree = "<group>"; };
 		A07E44F622908B7A00DF6159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07E44FD22908C2E00DF6159 /* ConstraintHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintHelpers.swift; sourceTree = "<group>"; };
+		A07E44FF22908CBA00DF6159 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		A07E450122908CD100DF6159 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		A07E450322908CF300DF6159 /* LayoutEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutEdge.swift; sourceTree = "<group>"; };
+		A07E450522908D0C00DF6159 /* LayoutCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCorner.swift; sourceTree = "<group>"; };
+		A07E450722908D2A00DF6159 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A07E450922908D5D00DF6159 /* EdgeInsetsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsetsExtension.swift; sourceTree = "<group>"; };
+		A07E450B22908DAA00DF6159 /* LayoutConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraintExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,14 @@
 			isa = PBXGroup;
 			children = (
 				A07E44F522908B7A00DF6159 /* AFConstraintHelpers.h */,
+				A07E44FD22908C2E00DF6159 /* ConstraintHelpers.swift */,
+				A07E450122908CD100DF6159 /* ViewExtension.swift */,
+				A07E450B22908DAA00DF6159 /* LayoutConstraintExtension.swift */,
+				A07E450322908CF300DF6159 /* LayoutEdge.swift */,
+				A07E450522908D0C00DF6159 /* LayoutCorner.swift */,
+				A07E450722908D2A00DF6159 /* StringExtension.swift */,
+				A07E450922908D5D00DF6159 /* EdgeInsetsExtension.swift */,
+				A07E44FF22908CBA00DF6159 /* ArrayExtension.swift */,
 				A07E44F622908B7A00DF6159 /* Info.plist */,
 			);
 			path = AFConstraintHelpers;
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					A07E44F122908B7A00DF6159 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,6 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07E450A22908D5D00DF6159 /* EdgeInsetsExtension.swift in Sources */,
+				A07E450222908CD100DF6159 /* ViewExtension.swift in Sources */,
+				A07E450C22908DAA00DF6159 /* LayoutConstraintExtension.swift in Sources */,
+				A07E44FE22908C2E00DF6159 /* ConstraintHelpers.swift in Sources */,
+				A07E450822908D2A00DF6159 /* StringExtension.swift in Sources */,
+				A07E450422908CF300DF6159 /* LayoutEdge.swift in Sources */,
+				A07E450622908D0C00DF6159 /* LayoutCorner.swift in Sources */,
+				A07E450022908CBA00DF6159 /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +294,7 @@
 		A07E44FB22908B7A00DF6159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.softtek.apps.AFConstraintHelpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +321,7 @@
 		A07E44FC22908B7A00DF6159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
